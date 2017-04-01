@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tasks</title>
+        <link rel="stylesheet" type="text/css" href="tasks.css"  />
+        <script src ="tasks.js">
+        </script>
+    </head>
+    <body>
+        <div id = "taskscontainer">
+
+        </div>
+        <script>
+            var taskApp=null;
+            function ready() {
+                taskApp = new TaskApp("taskscontainer", "tasks");
+            }
+
+            document.addEventListener("DOMContentLoaded", ready);
+        </script>
+    </body>
+</html>

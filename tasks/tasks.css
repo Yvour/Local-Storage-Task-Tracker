@@ -1,0 +1,40 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.task-app-clickable.table-cell {
+    background-color: darkgray;
+}
+.task-app-clickable.table-cell[data-type-content=completed]{
+    background-color: lightblue;
+}
+.task-app-clickable.table-cell.marked {
+    background-color: green;
+    color: white;
+}
+
+.task-app-clickable.button{
+    border: 1px solid forestgreen;
+    border-radius: 2px;
+    background-color: beige
+}
+
+.task-app-clickable.button:hover{
+    border: 1px solid magenta;
+    outline: 1px solid yellow;
+    border-radius: 2px;
+    background-color: yellowgreen;
+}
+
+
+.task-app-grid, .task-app-edit-form, .task-app-panel{
+    background-color: palegoldenrod;
+    border-radius: 3px;
+    border: 1px solid forestgreen;
+}
+
+.task-app-grid:hover {
+    background-color: peachpuff;
+    border-radius: 3px;
+    border: 1px solid darkgreen;
+}
